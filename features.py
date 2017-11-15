@@ -15,41 +15,61 @@ NUMERICAL_NON_ULOG = [
 ]
 
 NUMERICAL_AGG_AVG = [
-    'avg(num_unq)',
-    'avg(total_secs)',
-    'avg(num_25)',
-    'avg(num_50)',
-    'avg(num_75)',
-    'avg(num_985)',
-    'avg(num_100)',
+    'avg_num_unq',
+    'avg_total_secs',
+    'avg_num_25',
+    'avg_num_50',
+    'avg_num_75',
+    'avg_num_985',
+    'avg_num_100',
 ]
 
 NUMERICAL_AGG_MAX = [
-    'max(num_unq)',
-    'max(total_secs)',
-    'max(num_25)',
-    'max(num_50)',
-    'max(num_75)',
-    'max(num_985)',
-    'max(num_100)',
+    'max_num_unq',
+    'max_total_secs',
+    'max_num_25',
+    'max_num_50',
+    'max_num_75',
+    'max_num_985',
+    'max_num_100',
 ]
 
 NUMERICAL_AGG_MIN = [
-    'min(num_unq)',
-    'min(total_secs)',
-    'min(num_25)',
-    'min(num_50)',
-    'min(num_75)',
-    'min(num_985)',
-    'min(num_100)',
+    'min_num_unq',
+    'min_total_secs',
+    'min_num_25',
+    'min_num_50',
+    'min_num_75',
+    'min_num_985',
+    'min_num_100',
 ]
 
 NUMERICAL_AGG_SUM = [
-    'sum(num_unq)',
-    'sum(total_secs)',
-    'sum(num_25)',
-    'sum(num_50)',
-    'sum(num_75)',
-    'sum(num_985)',
-    'sum(num_100)',
+    'sum_num_unq)',
+    'sum_total_secs)',
+    'sum_num_25',
+    'sum_num_50',
+    'sum_num_75',
+    'sum_num_985',
+    'sum_num_100',
+]
+
+NUMERICAL_AGG_SUM = [
+    'sum_num_unq',
+    'sum_total_secs',
+    'sum_num_25',
+    'sum_num_50',
+    'sum_num_75',
+    'sum_num_985',
+    'sum_num_100',
+]
+
+NUMERICAL_AGG_STDDEV = [
+    'stddev_num_unq',
+    'stddev_total_secs',
+    'stddev_num_25',
+    'stddev_num_50',
+    'stddev_num_75',
+    'stddev_num_985',
+    'stddev_num_100',
 ]
